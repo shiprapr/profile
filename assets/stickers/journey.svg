@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <radialGradient id="journey-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF8E1" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#FFD54F" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#D79005" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="needle-n" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A80"/>
+      <stop offset="100%" stop-color="#C42759"/>
+    </linearGradient>
+    <linearGradient id="needle-s" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90CAF9"/>
+      <stop offset="100%" stop-color="#2C3C55"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="44" fill="url(#journey-glow)" opacity="0.4"/>
+  <circle cx="50" cy="50" r="34" fill="#121B28" opacity="0.75"/>
+  <!-- Compass Rose Points -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#F8D237" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <!-- North needle -->
+  <polygon points="50,22 56,50 50,46" fill="url(#needle-n)"/>
+  <polygon points="50,22 44,50 50,46" fill="#FF5252"/>
+  <!-- South needle -->
+  <polygon points="50,78 56,50 50,54" fill="url(#needle-s)"/>
+  <polygon points="50,78 44,50 50,54" fill="#394D6A"/>
+  <!-- Compass Pivot -->
+  <circle cx="50" cy="50" r="5" fill="#F8D237"/>
+  <circle cx="50" cy="50" r="2" fill="#FFFFFF"/>
+</svg>

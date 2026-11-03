@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <radialGradient id="connect-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E1F5FE" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#81D4FA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0288D1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plane-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F6DBC0"/>
+      <stop offset="100%" stop-color="#F2B006"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="44" fill="url(#connect-glow)" opacity="0.4"/>
+  <!-- Paper Plane / Connect Beacon -->
+  <!-- Wing Shadow -->
+  <polygon points="20,62 48,52 46,72" fill="#502D55" opacity="0.6"/>
+  <!-- Main Wing Left -->
+  <polygon points="20,62 82,24 48,52" fill="url(#plane-body)"/>
+  <!-- Main Wing Right -->
+  <polygon points="82,24 58,74 48,52" fill="#F6DBC0"/>
+  <!-- Central Fold -->
+  <polygon points="48,52 82,24 50,53" fill="#D79005" opacity="0.8"/>
+  <!-- Signal trail dots -->
+  <circle cx="24" cy="74" r="2.5" fill="#F2B006" opacity="0.8"/>
+  <circle cx="17" cy="81" r="2" fill="#F2B006" opacity="0.5"/>
+  <circle cx="12" cy="87" r="1.5" fill="#F2B006" opacity="0.3"/>
+</svg>

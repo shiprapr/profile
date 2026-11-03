@@ -1,0 +1,10 @@
+<!doctype html><meta charset="utf-8"><title>WebGL check</title>
+<body style="font:18px/1.6 system-ui;padding:30px"><h2>WebGL check for the water effects</h2><pre id="o"></pre>
+<script>
+const c=document.createElement('canvas'),g=c.getContext('webgl2'),o=[];
+o.push('WebGL2 available: '+(g?'YES':'NO'));
+if(g){o.push('Float render support: '+((g.getExtension('EXT_color_buffer_float')||g.getExtension('EXT_color_buffer_half_float'))?'YES':'NO'));
+const d=g.getExtension('WEBGL_debug_renderer_info');o.push('Graphics: '+(d?g.getParameter(d.UNMASKED_RENDERER_WEBGL):'hidden'));}
+else o.push('Fix: Chrome/Edge Settings, System, turn ON "Use graphics acceleration when available", then restart the browser.');
+document.getElementById('o').textContent=o.join('\n');
+</script>
