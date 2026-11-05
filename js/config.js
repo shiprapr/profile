@@ -12,7 +12,7 @@ window.SITE = {
     // YouTube: "https://www.youtube.com/@flaretales",
     Vimeo: "https://vimeo.com/ship260124752",
     // Instagram: "https://www.instagram.com/shipraporwal", // TODO: add your Instagram profile URL
-    GitHub: "https://github.com/shipraporwal", 
+    GitHub: "https://github.com/shiprapr", 
     Email: "shiprap42@gmail.com"         // TODO: add your GitHub profile URL
   },
   stickers: [
